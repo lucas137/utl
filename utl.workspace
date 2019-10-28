@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="doc/utl-doc.cbp" />
+		<Project filename="test/chrono/chrono.cbp" />
+		<Project filename="test/cli/cli.cbp" />
+		<Project filename="test/file/file.cbp" />
+		<Project filename="test/fltk/fltk.cbp" />
+		<Project filename="test/iostream/iostream.cbp" />
+		<Project filename="test/math/math.cbp" />
+		<Project filename="test/queue/queue.cbp" />
+		<Project filename="test/randomize/randomize.cbp" />
+		<Project filename="test/string/string.cbp" />
+		<Project filename="test/utlx/utlx.cbp" />
+		<Project filename="test/compile/compile.cbp" />
+		<Project filename="C:/Users/Lucas/AppData/Roaming/CodeBlocks/UserTemplates/utl-template/tmpl.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
