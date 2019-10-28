@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1450237833 source:d:\lucas\projects\utl\test\cli\src\cli_test.cpp
+	<iostream>
+	<string>
+	<vector>
+	"utl_test.hpp"
+	"utl/cli.hpp"
+
+1446951721 d:\lucas\projects\utl\test\test\utl_test.hpp
+	<iostream>
+	<string>
+
+1450237774 d:\lucas\projects\utl\utl\cli.hpp
+	<string>
+	<vector>
+	"cli/option.ipp"
+	"cli/usage.ipp"
+
+1449853780 d:\lucas\projects\utl\utl\cli\option.ipp
+	"detail/parse.ipp"
+	<iomanip>
+	<sstream>
+
+1450232278 d:\lucas\projects\utl\utl\cli\detail\parse.ipp
+	<string>
+
+1449849852 d:\lucas\projects\utl\utl\cli\usage.ipp
+	<iomanip>
+	<sstream>
+

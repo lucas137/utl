@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1447103803 source:d:\lucas\projects\utl\test\fltk\src\fltk_test.cpp
+	<iostream>
+	<string>
+	<sstream>
+	"screen.hpp"
+
+1447100703 d:\lucas\projects\utl\test\fltk\src\screen.hpp
+	<iostream>
+	<string>
+	<sstream>
+	<FL/Fl.H>
+
+1414681522 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl.h
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+
+1311047370 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_cairo.h
+	<FL/Fl_Export.H>
+	<cairo-xlib.h>
+	<cairo-win32.h>
+	<cairo-quartz.h>
+
+1408620588 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_export.h
+
+1409214847 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1311047370 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_types.h
+
+1413403220 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\enumerations.h
+	"Fl_Export.H"
+	"fl_types.h"
+
+1414588868 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_window.h
+	<windows.h>
+	"Fl_Group.H"
+	"Fl_Bitmap.H"
+	<stdlib.h>
+
+1409310611 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_group.h
+	"Fl_Widget.H"
+
+1410162949 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_widget.h
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1393080710 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_bitmap.h
+	"Fl_Image.H"
+
+1413289979 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_image.h
+	"Enumerations.H"
+	<stdlib.h>
+
+1345191486 d:\lucas\projects\common\fltk\fltk-1.3.3\fl\fl_box.h
+	"Fl_Widget.H"
+

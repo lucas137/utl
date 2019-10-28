@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1447454578 source:d:\lucas\projects\utl\test\concurrent_queue\src\concurrent_queue_test.cpp
+	<iostream>
+	"utl/concurrent_queue.hpp"
+	"consumer.hpp"
+	"producer.hpp"
+
+1447465847 d:\lucas\projects\utl\utl\concurrent_queue.hpp
+	<thread>
+	<mutex>
+	<condition_variable>
+	<boost/thread.hpp>
+	<mingw.thread.h>
+	<mutex>
+	<mingw.mutex.h>
+	<mingw.condition_variable.h>
+	<queue>
+
+1445809769 c:\mingw-4.8.1\mingw-std-threads-master\mingw.thread.h
+	<windows.h>
+	<functional>
+	<memory>
+	<chrono>
+	<system_error>
+	<process.h>
+
+1447388665 c:\mingw-4.8.1\mingw-std-threads-master\mingw.mutex.h
+	<iostream>
+
+1447386704 c:\mingw-4.8.1\mingw-std-threads-master\mingw.condition_variable.h
+	<atomic>
+	<assert.h>
+	<condition_variable>
+
+1447455702 d:\lucas\projects\utl\test\concurrent_queue\src\consumer.hpp
+	<iostream>
+	<atomic>
+	<system_error>
+	"utl/concurrent_queue.hpp"
+
+1447455707 d:\lucas\projects\utl\test\concurrent_queue\src\producer.hpp
+	<iostream>
+	<atomic>
+	<system_error>
+	"utl/concurrent_queue.hpp"
+
+1447471777 source:d:\lucas\projects\utl\test\queue\src\queue_test.cpp
+	<iostream>
+	"utl/queue.hpp"
+	"consumer.hpp"
+	"producer.hpp"
+
+1450237503 d:\lucas\projects\utl\utl\queue.hpp
+	<thread>
+	<mutex>
+	<condition_variable>
+	<boost/thread.hpp>
+	<mingw.thread.h>
+	<mutex>
+	<mingw.mutex.h>
+	<mingw.condition_variable.h>
+	<queue>
+
+1447471746 d:\lucas\projects\utl\test\queue\src\consumer.hpp
+	<iostream>
+	<atomic>
+	<system_error>
+	"utl/queue.hpp"
+
+1447471811 d:\lucas\projects\utl\test\queue\src\producer.hpp
+	<iostream>
+	<atomic>
+	<system_error>
+	"utl/queue.hpp"
+

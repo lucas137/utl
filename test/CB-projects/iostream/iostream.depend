@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1447620660 source:d:\lucas\projects\utl\test\ostream\src\ostream_test.cpp
+	<iostream>
+	<utl/ostream.hpp>
+
+1447624720 d:\lucas\projects\utl\utl\ostream.hpp
+	<sstream>
+

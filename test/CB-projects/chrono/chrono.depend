@@ -1,0 +1,167 @@
+# depslib dependency file v1.0
+1446934388 source:d:\lucas\projects\utl\test\time\src\time_test.cpp
+	"utl_test.hpp"
+	"time_test.hpp"
+
+1505593156 d:\lucas\projects\utl\test\test\utl_test.hpp
+	<iostream>
+	<string>
+
+1446927617 d:\lucas\projects\utl\test\time\src\time_test.hpp
+	<iostream>
+	<string>
+	<sstream>
+	"utl_test.hpp"
+
+1446948520 source:d:\lucas\projects\utl\test\time\src\time_test_clock.cpp
+	<iostream>
+	<string>
+	"utl/time.hpp"
+	"utl_test.hpp"
+	"time_test.hpp"
+
+1446951521 d:\lucas\projects\utl\utl\time.hpp
+	<string>
+	<chrono>
+	<ctime>
+	"time/time.ipp"
+
+1446930644 d:\lucas\projects\utl\utl\time\timer.hpp
+	<chrono>
+
+1446949412 d:\lucas\projects\utl\utl\time\timestamp.hpp
+	<string>
+	<iomanip>
+	<sstream>
+	<ctime>
+	<chrono>
+	"utl/time.hpp"
+
+1446948477 d:\lucas\projects\utl\utl\time\time_clock.ipp
+	<sstream>
+	<ios>
+	<ratio>
+
+1446935130 d:\lucas\projects\utl\utl\time\time_format.ipp
+	<iomanip>
+	<sstream>
+	<ctime>
+
+1446934570 source:d:\lucas\projects\utl\test\time\src\time_test_time.cpp
+	<iostream>
+	<string>
+	"utl/time.hpp"
+	"utl_test.hpp"
+	"time_test.hpp"
+
+1446938473 source:d:\lucas\projects\utl\test\time\src\time_test_timer.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<math.h>
+	<chrono>
+	<ctime>
+	"utl/timer.hpp"
+	"utl_test.hpp"
+	"time_test.hpp"
+
+1446934779 source:d:\lucas\projects\utl\test\time\src\time_test_timestamp.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<chrono>
+	"utl/time/timestamp.hpp"
+	"utl_test.hpp"
+	"time_test.hpp"
+
+1446938411 d:\lucas\projects\utl\utl\timer.hpp
+	<chrono>
+
+1446951561 d:\lucas\projects\utl\utl\time\time.ipp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1505594451 source:d:\lucas\projects\utl\test\chrono\src\chrono_test.cpp
+	"utl_test.hpp"
+	"chrono_test.hpp"
+
+1505594821 d:\lucas\projects\utl\test\chrono\src\chrono_test.hpp
+	"utl_test.hpp"
+
+1450235810 source:d:\lucas\projects\utl\test\chrono\src\test_clock.cpp
+	<iostream>
+	<string>
+	"utl/chrono.hpp"
+	"utl_test.hpp"
+	"chrono_test.hpp"
+
+1505528957 d:\lucas\projects\utl\utl\chrono.hpp
+	"chrono/chrono_clock.hpp"
+	"chrono/chrono_datetime.hpp"
+	"chrono/chrono_timer.hpp"
+	"chrono/chrono_timestamp.hpp"
+
+1449801008 d:\lucas\projects\utl\utl\chrono\chrono.ipp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1505593244 source:d:\lucas\projects\utl\test\chrono\src\test_time.cpp
+	<iostream>
+	<string>
+	"utl/chrono.hpp"
+	"utl_test.hpp"
+	"chrono_test.hpp"
+
+1450233008 source:d:\lucas\projects\utl\test\chrono\src\test_timer.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<math.h>
+	<chrono>
+	<ctime>
+	"utl/chrono.hpp"
+	"utl_test.hpp"
+	"chrono_test.hpp"
+
+1450234289 source:d:\lucas\projects\utl\test\chrono\src\test_timestamp.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<chrono>
+	"utl/chrono.hpp"
+	"utl_test.hpp"
+	"chrono_test.hpp"
+
+1505593035 d:\lucas\projects\utl\utl\chrono\chrono_clock.hpp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1505593304 d:\lucas\projects\utl\utl\chrono\chrono_datetime.hpp
+	<ctime>
+	<string>
+
+1505529114 d:\lucas\projects\utl\utl\chrono\chrono_timer.hpp
+	<chrono>
+
+1505529119 d:\lucas\projects\utl\utl\chrono\chrono_timestamp.hpp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+

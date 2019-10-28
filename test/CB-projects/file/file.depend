@@ -1,0 +1,234 @@
+# depslib dependency file v1.0
+1447466992 source:d:\lucas\projects\utl\test\data_log\src\data_log_test.cpp
+	<iostream>
+	<string>
+	"utl/time.hpp"
+	"utl/data_log.hpp"
+
+1449444651 d:\lucas\projects\utl\utl\time.hpp
+	<string>
+	<chrono>
+	<ctime>
+	"time/time.ipp"
+
+1446951561 d:\lucas\projects\utl\utl\time\time.ipp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1447466951 d:\lucas\projects\utl\utl\data_log.hpp
+	<string>
+	<fstream>
+	<queue>
+	<atomic>
+	<system_error>
+	<thread>
+	<mutex>
+	<condition_variable>
+	<mingw.thread.h>
+	<mutex>
+	<mingw.mutex.h>
+	<mingw.condition_variable.h>
+
+1445809769 c:\mingw-4.8.1\mingw-std-threads-master\mingw.thread.h
+	<windows.h>
+	<functional>
+	<memory>
+	<chrono>
+	<system_error>
+	<process.h>
+
+1447388665 c:\mingw-4.8.1\mingw-std-threads-master\mingw.mutex.h
+	<iostream>
+
+1447386704 c:\mingw-4.8.1\mingw-std-threads-master\mingw.condition_variable.h
+	<atomic>
+	<assert.h>
+	<condition_variable>
+
+1447628044 source:d:\lucas\projects\utl\test\file_writer\src\file_writer_test.cpp
+	<string>
+	"utl/time.hpp"
+	"file_writer_test.hpp"
+	"csv_writer_test.hpp"
+
+1449437954 d:\lucas\projects\utl\utl\file_writer.hpp
+	<string>
+	<fstream>
+	<iostream>
+	<atomic>
+	<utl/string.hpp>
+	<utl/queue.hpp>
+
+1450237503 d:\lucas\projects\utl\utl\queue.hpp
+	<thread>
+	<mutex>
+	<condition_variable>
+	<boost/thread.hpp>
+	<mingw.thread.h>
+	<mutex>
+	<mingw.mutex.h>
+	<mingw.condition_variable.h>
+	<queue>
+
+1450237561 d:\lucas\projects\utl\utl\string.hpp
+	<string>
+	<vector>
+	<ios>
+	"string/convert.ipp"
+	"string/parse.ipp"
+	"string/search.ipp"
+
+1450232365 d:\lucas\projects\utl\utl\string\convert.ipp
+	<string>
+	<sstream>
+	<vector>
+	<ios>
+	<iomanip>
+
+1449427232 d:\lucas\projects\utl\utl\string\parse.ipp
+	<string>
+	<sstream>
+	<vector>
+
+1449427258 d:\lucas\projects\utl\utl\string\search.ipp
+	<string>
+
+1447631601 d:\lucas\projects\utl\utl\csv_writer.hpp
+	<string>
+	<sstream>
+	<utl/file_writer.hpp>
+
+1447629998 d:\lucas\projects\utl\test\file_writer\src\file_writer_test.hpp
+	<string>
+	<iostream>
+	<sstream>
+	<utl/string.hpp>
+	<utl/file_writer.hpp>
+
+1447627269 d:\lucas\projects\utl\test\file_writer\src\csv_writer_test.hpp
+	<iostream>
+	<string>
+	"file_writer_test.hpp"
+	"utl/csv_writer.hpp"
+
+1447622252 d:\lucas\projects\utl\utl\ostream.hpp
+	<sstream>
+
+1449877686 source:d:\lucas\projects\utl\test\file\src\file_test.cpp
+	"test_file_name.hpp"
+	"test_file_writer.hpp"
+	<string>
+
+1449895081 d:\lucas\projects\utl\utl\file.hpp
+	"file/file_csv.hpp"
+	"file/file_keyval.hpp"
+	"file/file_log.hpp"
+	"file/file_name.hpp"
+	"file/file_writer.hpp"
+
+1449448623 d:\lucas\projects\utl\test\file\src\test_filename.hpp
+	<iostream>
+	<string>
+	<utl/file.hpp>
+
+1449877643 d:\lucas\projects\utl\test\file\src\test_file_writer.hpp
+	<utl/file.hpp>
+	<utl/chrono.hpp>
+	<utl/string.hpp>
+	<string>
+	<iostream>
+	<sstream>
+
+1447632658 d:\lucas\projects\utl\test\file\src\test_csv_writer.hpp
+	<iostream>
+	<string>
+	"utl/csv_writer.hpp"
+
+1449437802 d:\lucas\projects\utl\utl\filename.hpp
+	<string>
+
+1450237146 d:\lucas\projects\utl\utl\file\file_csv.hpp
+	<utl/file/file_writer.hpp>
+	<string>
+	<sstream>
+
+1450237221 d:\lucas\projects\utl\utl\file\file_writer.hpp
+	<utl/string.hpp>
+	<utl/queue.hpp>
+	<string>
+	<fstream>
+	<iostream>
+	<atomic>
+
+1449876190 d:\lucas\projects\utl\utl\file\filename.hpp
+	<string>
+
+1449852542 d:\lucas\projects\utl\utl\file\parse_keyval.ipp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+
+1449877690 d:\lucas\projects\utl\test\file\src\test_file_name.hpp
+	<utl/file.hpp>
+	<iostream>
+	<string>
+
+1449895426 d:\lucas\projects\utl\utl\file\file_name.hpp
+	<string>
+
+1450234230 d:\lucas\projects\utl\utl\chrono.hpp
+	"chrono/chrono_clock.hpp"
+	"chrono/chrono_datetime.hpp"
+	"chrono/chrono_timer.hpp"
+	"chrono/chrono_timestamp.hpp"
+
+1449801008 d:\lucas\projects\utl\utl\chrono\chrono.ipp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1450237199 d:\lucas\projects\utl\utl\file\file_keyval.hpp
+	<string>
+	<fstream>
+	<sstream>
+	<map>
+	<unordered_map>
+
+1449895436 d:\lucas\projects\utl\utl\file\file_log.hpp
+	<string>
+	<iostream>
+	<fstream>
+
+1450236877 d:\lucas\projects\utl\utl\chrono\chrono_clock.hpp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1449895357 d:\lucas\projects\utl\utl\chrono\chrono_datetime.hpp
+	<ctime>
+	<string>
+
+1450236946 d:\lucas\projects\utl\utl\chrono\chrono_timer.hpp
+	<chrono>
+
+1449895387 d:\lucas\projects\utl\utl\chrono\chrono_timestamp.hpp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+

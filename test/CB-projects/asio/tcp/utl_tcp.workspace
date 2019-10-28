@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="server_sync/tcp_server_sync.cbp" />
+		<Project filename="client_sync/tcp_client_sync.cbp" />
+		<Project filename="server/tcp_server.cbp" />
+		<Project filename="client/tcp_client.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

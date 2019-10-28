@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="math" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../bin/math_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="$(#mingw-w64.include)" />
+			<Add directory="$(#utl)" />
+			<Add directory="D:/Lucas/projects/utl/test/math/src" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="../../utl/math.hpp" />
+		<Unit filename="src/math_test.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
