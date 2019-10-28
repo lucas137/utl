@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="utl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/utl" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="$(#mingw-w64.include)" />
+		</Compiler>
+		<Unit filename="../COPYING" />
+		<Unit filename="../LICENSE.txt" />
+		<Unit filename="../utl/app.hpp" />
+		<Unit filename="../utl/app/app_key.hpp" />
+		<Unit filename="../utl/app/cli.hpp" />
+		<Unit filename="../utl/app/cli/detail/parse.ipp" />
+		<Unit filename="../utl/app/cli/option.ipp" />
+		<Unit filename="../utl/app/cli/usage.ipp" />
+		<Unit filename="../utl/asio.hpp" />
+		<Unit filename="../utl/asio/tcp/client.hpp" />
+		<Unit filename="../utl/asio/tcp/connection.hpp" />
+		<Unit filename="../utl/asio/tcp/server.hpp" />
+		<Unit filename="../utl/chrono.hpp" />
+		<Unit filename="../utl/chrono/chrono_clock.hpp" />
+		<Unit filename="../utl/chrono/chrono_datetime.hpp" />
+		<Unit filename="../utl/chrono/chrono_timer.hpp" />
+		<Unit filename="../utl/chrono/chrono_timestamp.hpp" />
+		<Unit filename="../utl/color.hpp" />
+		<Unit filename="../utl/compile.hpp" />
+		<Unit filename="../utl/conststr.hpp" />
+		<Unit filename="../utl/container.hpp" />
+		<Unit filename="../utl/file.hpp" />
+		<Unit filename="../utl/file/file_csv.hpp" />
+		<Unit filename="../utl/file/file_keyval.hpp" />
+		<Unit filename="../utl/file/file_log.hpp" />
+		<Unit filename="../utl/file/file_name.hpp" />
+		<Unit filename="../utl/file/file_writer.hpp" />
+		<Unit filename="../utl/fltk.hpp" />
+		<Unit filename="../utl/fltk/fltk_circle.hpp" />
+		<Unit filename="../utl/fltk/fltk_draw.hpp" />
+		<Unit filename="../utl/fltk/fltk_grid.hpp" />
+		<Unit filename="../utl/fltk/fltk_line.hpp" />
+		<Unit filename="../utl/fltk/fltk_lock.hpp" />
+		<Unit filename="../utl/fltk/fltk_point.hpp" />
+		<Unit filename="../utl/fltk/fltk_text.hpp" />
+		<Unit filename="../utl/iostream.hpp" />
+		<Unit filename="../utl/json.hpp" />
+		<Unit filename="../utl/json/nlohmann/json.hpp" />
+		<Unit filename="../utl/math.hpp" />
+		<Unit filename="../utl/memory.hpp" />
+		<Unit filename="../utl/opencv.hpp" />
+		<Unit filename="../utl/opencv/circle_region.hpp" />
+		<Unit filename="../utl/opencv/coordinates.hpp" />
+		<Unit filename="../utl/opencv/core.hpp" />
+		<Unit filename="../utl/opencv/countdown.hpp" />
+		<Unit filename="../utl/opencv/crosshair.hpp" />
+		<Unit filename="../utl/opencv/highgui.hpp" />
+		<Unit filename="../utl/opencv/panel.hpp" />
+		<Unit filename="../utl/opencv/popup.hpp" />
+		<Unit filename="../utl/opencv/rectangle.hpp" />
+		<Unit filename="../utl/opencv/rotated_rect.hpp" />
+		<Unit filename="../utl/opencv/text.hpp" />
+		<Unit filename="../utl/opencv/textrect.hpp" />
+		<Unit filename="../utl/opencv/triangle.hpp" />
+		<Unit filename="../utl/queue.hpp" />
+		<Unit filename="../utl/randomize.hpp" />
+		<Unit filename="../utl/string.hpp" />
+		<Unit filename="../utl/string/tuple_string.hpp" />
+		<Unit filename="../utl/summation.hpp" />
+		<Unit filename="../utl/thread.hpp" />
+		<Unit filename="../utl/utl.hpp" />
+		<Unit filename="doxygen/doxyfile" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="2" line="2" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
