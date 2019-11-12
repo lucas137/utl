@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing a data logger.
 /// @note     Not thread-safe.
 /// @author   Nathan Lucas
-/// @version  0.3
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FILE_LOG_HPP

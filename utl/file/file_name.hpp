@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    Filename utility library.
 /// @details  Header-only library providing filename utilities.
 /// @author   Nathan P. Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FILENAME_IPP

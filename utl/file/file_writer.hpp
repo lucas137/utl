@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing a thread-safe
 ///           file writer built on `utl::queue`.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FILE_WRITER_HPP

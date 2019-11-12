@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing comma-separated
 ///           value (CSV) file format utilities.
 /// @author   Nathan P. Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FILE_CSV_HPP

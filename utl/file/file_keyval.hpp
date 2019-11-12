@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    Key-value file parsing utility library.
 /// @details  Header-only library providing key-value file parsing utilities.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FILE_KEYVAL_HPP
