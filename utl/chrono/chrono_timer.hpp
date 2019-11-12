@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing a steady monotonic
 ///           timer built on C++ standard library `<chrono>`.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_CHRONO_TIMER_HPP

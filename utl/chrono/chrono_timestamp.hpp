@@ -30,7 +30,6 @@ SOFTWARE.
 ///           intended to represent the real time, and can be translated
 ///           to and from calendar representations.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_CHRONO_TIMESTAMP_HPP

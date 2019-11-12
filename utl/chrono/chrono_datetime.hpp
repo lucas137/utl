@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing date and time conversion
 ///           functions built on C++ standard library `<ctime>`.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_CHRONO_DATETIME_HPP
