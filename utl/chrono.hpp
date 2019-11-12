@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing time and date utilities built
 ///           on C++ standard libraries `<chrono>` and `<ctime>`.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_CHRONO_HPP

@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Header-only library providing color utilities.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2016
 //===========================================================================//
 #ifndef UTL_COLOR_HPP

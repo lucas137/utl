@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    Running total.
 /// @details  Header-only library providing running total utilities.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2017-2018
 //===========================================================================//
 #ifndef UTL_SUMMATION_HPP

@@ -28,7 +28,6 @@ SOFTWARE.
 ///           on C++ standard libraries `<iostream>` and `<sstream>`. @n
 ///           Includes formatted standard output via `std::out`.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_IOSTREAM_HPP

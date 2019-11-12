@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Compile-time utilities.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2016-2017
 //===========================================================================//
 #ifndef UTL_COMPILE_HPP

@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Header-only library providing thread utilities.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2016
 //===========================================================================//
 #ifndef UTL_THREAD_HPP

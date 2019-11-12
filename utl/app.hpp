@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Application utility library.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_APP_HPP

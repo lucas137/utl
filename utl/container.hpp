@@ -1,7 +1,7 @@
 /*
 Licensed under the MIT License <http://opensource.org/licenses/MIT>
 
-Copyright 2017 Nathan Lucas <nathan.lucas@wayne.edu>
+Copyright 2018 Nathan Lucas <nathan.lucas@wayne.edu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    Container utilities.
 /// @details  Custom containers and related functions.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2018
 //===========================================================================//
 #ifndef UTL_CONTAINER_HPP

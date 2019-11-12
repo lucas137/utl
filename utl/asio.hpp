@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Asynchronous I/O.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2016
 //===========================================================================//
 #ifndef UTL_ASIO_HPP

@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    File utility library.
 /// @details  Header-only library providing file utilities.
 /// @author   Nathan Lucas
-/// @version  0.3
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FILE_HPP

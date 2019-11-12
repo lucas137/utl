@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    OpenCV utility library.
 /// @details  Header-only library providing utilities to complement OpenCV.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2017
 //===========================================================================//
 #ifndef UTL_OPENCV_HPP

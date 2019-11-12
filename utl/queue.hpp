@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Header-only library providing a thread-safe concurrent queue
 ///           built on `std::queue` from C++ standard library `<queue>`.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_QUEUE_HPP

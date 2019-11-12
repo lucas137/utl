@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    Math utility library.
 /// @details  Header-only library providing math utilities.
 /// @author   Nathan Lucas
-/// @version  0.2
 /// @date     2015-2017
 //===========================================================================//
 #ifndef UTL_MATH_HPP
