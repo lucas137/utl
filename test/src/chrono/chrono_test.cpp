@@ -3,8 +3,9 @@
 //  2015
 //===========================================================================//
 
-#include "utl_test.hpp"  // utl_test::test_label
 #include "chrono_test.hpp"
+
+#include "utl_test.hpp"  // utl_test::test_label
 
 int
 main(int argc, char* argv[])

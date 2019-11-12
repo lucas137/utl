@@ -3,13 +3,13 @@
 //  2015
 //===========================================================================//
 
-#include <iostream>     // std::cout, std::endl
-#include <string>       // std::string
+#include "utl_test.hpp"       // utl_test::test_label
+#include "chrono_test.hpp"
 
 #include "utl/chrono.hpp"     // utl::chrono::clock_precision
 
-#include "utl_test.hpp"       // utl_test::test_label
-#include "chrono_test.hpp"
+#include <iostream>     // std::cout, std::endl
+#include <string>       // std::string
 
 namespace {   //-------------------------------------------------------------
 
