@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Tuple to string formatter.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2017
 //===========================================================================//
 #ifndef UTL_TUPLE_STRING_HPP
