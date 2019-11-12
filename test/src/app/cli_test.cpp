@@ -3,12 +3,13 @@
 //  2015
 //===========================================================================//
 
+#include "utl_test.hpp"
+
+#include <utl/app/cli.hpp>
+
 #include <iostream>     //  std::cout, std::endl
 #include <string>       //  std::string
 #include <vector>       //  std::vector
-
-#include "utl_test.hpp"
-#include "utl/cli.hpp"
 
 namespace utl_test {
 
@@ -16,24 +17,24 @@ namespace utl_test {
 void
 cli_test(int& n)
 {
-  utl_test::test_label(n, "utl::cli::print_separator");
+  utl_test::test_label(n, "utl::app::cli::separator");
 
   std::string str(79, '-');
-  std::cout << utl::cli::separator(79) << std::endl;
-  std::cout << utl::cli::separator('-') << std::endl;
-  std::cout << utl::cli::separator() << std::endl;
+  std::cout << utl::app::cli::separator(79) << std::endl;
+  std::cout << utl::app::cli::separator('-') << std::endl;
+  std::cout << utl::app::cli::separator() << std::endl;
 }
 
 
 void
 cli_option_test(int& n)
 {
-  utl_test::test_label(n, "utl::cli::option");
+  utl_test::test_label(n, "utl::app::cli::option");
 
   // program name would normally be passed to main as argv[0]
-  std::string program_name("cli_test");
+  std::string program_name("cli-test");
 
-  typedef utl::cli::option Option;
+  typedef utl::app::cli::option Option;
 
   // list of possible command line options and arguments
   Option help("-h", "show this help message");
@@ -52,7 +53,7 @@ cli_option_test(int& n)
     // create vector of options
     std::vector<Option> options {help, xopt, yopt, zopt};
     // output program usage
-    std::cout << utl::cli::usage(program_name, options, 8) << std::endl;
+    std::cout << utl::app::cli::usage(program_name, options, 8) << std::endl;
   }
 
   // suppose the user specified "-x:1" (i.e, option "-x" with argument "1")
