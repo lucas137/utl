@@ -25,7 +25,6 @@ SOFTWARE.
 /// @file
 /// @brief    Keyboard input.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2016
 //===========================================================================//
 #ifndef UTL_APP_KEY_HPP

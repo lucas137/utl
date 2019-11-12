@@ -26,7 +26,6 @@ SOFTWARE.
 /// @brief    Command line interface utilities.
 /// @details  Header-only library providing command line interface utilities.
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_APP_CLI_HPP
