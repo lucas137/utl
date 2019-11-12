@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  Point is based in part on the work of the FLTK project
 ///           (http://www.fltk.org).
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_FLTK_POINT_HPP

@@ -24,10 +24,9 @@ SOFTWARE.
 //===========================================================================//
 /// @file
 /// @brief    Drawing functions.
-/// @details  These functionsare based in part on the work of the FLTK project
+/// @details  These functions are based in part on the work of the FLTK project
 ///           (http://www.fltk.org).
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2016
 //===========================================================================//
 #ifndef UTL_FLTK_DRAW_HPP

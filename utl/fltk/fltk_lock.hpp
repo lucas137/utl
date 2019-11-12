@@ -27,7 +27,6 @@ SOFTWARE.
 /// @details  scoped_locl is based in part on the work of the FLTK project
 ///           (http://www.fltk.org).
 /// @author   Nathan Lucas
-/// @version  0.1
 /// @date     2016
 //===========================================================================//
 #ifndef UTL_FLTK_LOCK_HPP
