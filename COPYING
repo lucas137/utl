@@ -1,0 +1,7 @@
+Utility C++ Library (utl) is primarily licensed under the MIT License <http://opensource.org/licenses/MIT>
+Copyright 2015 Nathan Lucas <nathan.lucas@wayne.edu>
+See LICENSE.txt
+
+Some files depend on third-party libraries.
+Third-party copyrights are property of their respective owners.
+See files in the 3rdparty directory.
