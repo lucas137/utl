@@ -5,7 +5,7 @@
 
 #include "utl/compile.hpp"
 
-#include "test/test/utl_test.hpp"  // utl_test::test_label
+#include "utl_test.hpp"   // utl_test::test_label
 
 #include <iostream>   // std::cout
 #include <string>     // std::string
