@@ -5,10 +5,10 @@
 #ifndef UTL_TEST_CSV_WRITER_HPP
 #define UTL_TEST_CSV_WRITER_HPP
 
+#include "utl/csv_writer.hpp"
+
 #include <iostream>     //  std::cout, std::endl
 #include <string>       //  std::string
-
-#include "utl/csv_writer.hpp"
 
 namespace utl_test {
 

@@ -5,12 +5,14 @@
 #ifndef UTL_TEST_CSV_WRITER_HPP
 #define UTL_TEST_CSV_WRITER_HPP
 
+#include <utl/file/file_csv.hpp>  // utl::file::csv_writer,
+                                  // utl::file::file_writer,
+                                  // std::this_thread::sleep_for
+
+#include <utl/chrono.hpp>         // utl::chrono::datetime
+
 #include <iostream>     //  std::cout, std::endl
 #include <string>       //  std::string
-
-#include <utl/chrono.hpp>   // utl::chrono::datetime
-#include <utl/csv.hpp>      // utl::csv_writer, utl::file_writer
-                            // std::this_thread::sleep_for
 
 namespace utl_test {
 
@@ -18,11 +20,11 @@ namespace utl_test {
 namespace detail {  //-------------------------------------------------------
 
 void
-write_csv_data(utl::file_writer& file, std::string const& name)
+write_csv_data(utl::file::file_writer& file, std::string const& name)
 {
   for (int i = 0; i != 8; ++i)
   {
-    utl::csv_writer(file) << name << i << "count\n";
+    utl::file::csv_writer(file) << name << i << "count\n";
     std::this_thread::sleep_for(std::chrono::milliseconds(50));
   }
 }
@@ -37,14 +39,14 @@ test_csv_writer()
   std::string filename("log/csv_writer_" + datetime + ".csv");
   std::cout << "test_csv_writer: " << filename << '\n';
 
-  utl::file_writer file;
+  utl::file::file_writer file;
   if (!file.open(filename))
   {
     std::cout << "ERROR!\n";
   }
 
-  utl::csv_writer(file) << "foo" << 0 << 1 << '\n';
-  utl::csv_writer(file) << "foo" << 2 << 3 << '\n';
+  utl::file::csv_writer(file) << "foo" << 0 << 1 << '\n';
+  utl::file::csv_writer(file) << "foo" << 2 << 3 << '\n';
 
 
   // Test multi-threading ---------------------------------------------------
