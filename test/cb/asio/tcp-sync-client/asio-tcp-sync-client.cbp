@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="asio-tcp-sync-client" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../../bin/asio-tcp-sync-client" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="$(#asio.include)" />
+			<Add directory="$(#utl.include)" />
+		</Compiler>
+		<Linker>
+			<Add library="ws2_32" />
+		</Linker>
+		<Unit filename="../../../src/asio/tcp-sync-client/tcp_client_sync.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

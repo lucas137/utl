@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1505623194 source:d:\lucas\projects\utl\test\compile\src\compile_test.cpp
+	"utl/compile.hpp"
+	"test/test/utl_test.hpp"
+	<iostream>
+	<string>
+
+1573512424 d:\lucas\projects\utl\utl\compile.hpp
+	<string>
+
+1505593156 d:\lucas\projects\utl\test\test\utl_test.hpp
+	<iostream>
+	<string>
+
+1573509808 source:d:\lucas\projects\utl\test\src\compile\compile_test.cpp
+	"utl/compile.hpp"
+	"utl_test.hpp"
+	<iostream>
+	<string>
+
+1450237983 d:\lucas\projects\utl\test\src\string
+
+1573509382 d:\lucas\projects\utl\test\src\utl_test.hpp
+	<iostream>
+	<string>
+
+1451619902 d:\lucas\projects\utl\test\src\iostream
+

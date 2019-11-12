@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="file" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../bin/file-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="$(#utl.include)" />
+			<Add directory="$(#utl)/test/src" />
+			<Add directory="$(#utl)/test/src/file" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="../../../utl/file.hpp" />
+		<Unit filename="../../../utl/file/file_csv.hpp" />
+		<Unit filename="../../../utl/file/file_keyval.hpp" />
+		<Unit filename="../../../utl/file/file_log.hpp" />
+		<Unit filename="../../../utl/file/file_name.hpp" />
+		<Unit filename="../../../utl/file/file_writer.hpp" />
+		<Unit filename="../../src/file/csv/csv_test.cpp" />
+		<Unit filename="../../src/file/csv/test_csv_out.hpp" />
+		<Unit filename="../../src/file/csv/test_csv_writer.hpp" />
+		<Unit filename="../../src/file/file_test.cpp" />
+		<Unit filename="../../src/file/test_csv_writer.hpp" />
+		<Unit filename="../../src/file/test_file_name.hpp" />
+		<Unit filename="../../src/file/test_file_writer.hpp" />
+		<Unit filename="../../src/file/test_keyval.hpp" />
+		<Unit filename="../../src/file/test_logfile.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

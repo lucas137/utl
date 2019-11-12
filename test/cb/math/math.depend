@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1505671942 source:d:\lucas\projects\utl\test\src\math\math_test.cpp
+	"utl/math.hpp"
+	<string>
+	<iostream>
+
+1573512514 d:\lucas\projects\utl\utl\math.hpp
+	<cmath>
+	<deque>
+	<type_traits>
+

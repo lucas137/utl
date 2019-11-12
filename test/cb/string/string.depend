@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1450237983 source:d:\lucas\projects\utl\test\string\src\string_test.cpp
+	"utl/string.hpp"
+	"utl/chrono.hpp"
+	"utl_test.hpp"
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+
+1560720396 d:\lucas\projects\utl\utl\string.hpp
+	<utl/string/tuple_string.hpp>
+	<string>
+	<sstream>
+	<vector>
+	<ios>
+	<iomanip>
+
+1451619666 d:\lucas\projects\utl\utl\string\convert.ipp
+	<string>
+	<sstream>
+	<vector>
+	<ios>
+	<iomanip>
+
+1449427232 d:\lucas\projects\utl\utl\string\parse.ipp
+	<string>
+	<sstream>
+	<vector>
+
+1449427258 d:\lucas\projects\utl\utl\string\search.ipp
+	<string>
+
+1449800608 d:\lucas\projects\utl\utl\timer.hpp
+	<chrono>
+
+1446951721 d:\lucas\projects\utl\test\test\utl_test.hpp
+	<iostream>
+	<string>
+
+1573512386 d:\lucas\projects\utl\utl\chrono.hpp
+	"chrono/chrono_clock.hpp"
+	"chrono/chrono_datetime.hpp"
+	"chrono/chrono_timer.hpp"
+	"chrono/chrono_timestamp.hpp"
+
+1573512395 d:\lucas\projects\utl\utl\chrono\chrono_clock.hpp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+	<ios>
+	<ratio>
+
+1573512412 d:\lucas\projects\utl\utl\chrono\chrono_datetime.hpp
+	<ctime>
+	<string>
+
+1573512408 d:\lucas\projects\utl\utl\chrono\chrono_timer.hpp
+	<chrono>
+
+1573512401 d:\lucas\projects\utl\utl\chrono\chrono_timestamp.hpp
+	<chrono>
+	<ctime>
+	<string>
+	<sstream>
+	<iomanip>
+
+1450237983 source:d:\lucas\projects\utl\test\src\string\string_test.cpp
+	"utl/string.hpp"
+	"utl/chrono.hpp"
+	"utl_test.hpp"
+	<iostream>
+	<string>
+	<sstream>
+	<vector>
+
+1573512525 d:\lucas\projects\utl\utl\string\tuple_string.hpp
+	<vector>
+	<algorithm>
+	<iterator>
+	<string>
+	<sstream>
+
+1450237983 d:\lucas\projects\utl\test\src\string
+
+1573524335 d:\lucas\projects\utl\test\src\chrono
+
+1573509382 d:\lucas\projects\utl\test\src\utl_test.hpp
+	<iostream>
+	<string>
+
+1451619902 d:\lucas\projects\utl\test\src\iostream
+

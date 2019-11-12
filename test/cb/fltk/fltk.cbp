@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="fltk" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../bin/fltk-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_mingw-w64-x86_64-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-DWIN32" />
+			<Add directory="$(#fl.include)" />
+			<Add directory="$(#utl.include)" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+			<Add library="fltk" />
+			<Add library="ole32" />
+			<Add library="uuid" />
+			<Add library="comctl32" />
+			<Add library="wsock32" />
+			<Add library="m" />
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add directory="$(#fl.lib)" />
+		</Linker>
+		<Unit filename="../../../utl/fltk.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_circle.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_draw.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_grid.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_line.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_lock.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_point.hpp" />
+		<Unit filename="../../../utl/fltk/fltk_text.hpp" />
+		<Unit filename="../../src/fltk/fltk_test.cpp" />
+		<Unit filename="../../src/fltk/screen.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
