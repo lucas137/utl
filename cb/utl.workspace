@@ -10,6 +10,7 @@
 		<Project filename="../test/cb/chrono/chrono.cbp" />
 		<Project filename="../test/cb/compile/compile.cbp" />
 		<Project filename="../test/cb/file/file.cbp" />
+		<Project filename="../test/cb/file/csv/file-csv.cbp" />
 		<Project filename="../test/cb/fltk/fltk.cbp" />
 		<Project filename="../test/cb/iostream/iostream.cbp" />
 		<Project filename="../test/cb/math/math.cbp" />
