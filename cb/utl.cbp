@@ -26,7 +26,6 @@
 		</Compiler>
 		<Unit filename="../COPYING" />
 		<Unit filename="../LICENSE.txt" />
-		<Unit filename="../doc/doxygen/doxyfile" />
 		<Unit filename="../utl/app.hpp" />
 		<Unit filename="../utl/app/app_key.hpp" />
 		<Unit filename="../utl/app/cli.hpp" />
@@ -86,6 +85,9 @@
 		<Unit filename="../utl/summation.hpp" />
 		<Unit filename="../utl/thread.hpp" />
 		<Unit filename="../utl/utl.hpp" />
+		<Unit filename="doxygen/config/config.doxy" />
+		<Unit filename="doxygen/config/extra.css" />
+		<Unit filename="doxygen/doxyfile" />
 		<Extensions>
 			<code_completion />
 			<envvars />
