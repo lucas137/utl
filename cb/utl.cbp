@@ -25,7 +25,8 @@
 			<Add directory="$(#gcc.include)" />
 		</Compiler>
 		<Unit filename="../COPYING" />
-		<Unit filename="../LICENSE.txt" />
+		<Unit filename="../LICENSE" />
+		<Unit filename="../README.md" />
 		<Unit filename="../utl/app.hpp" />
 		<Unit filename="../utl/app/app_key.hpp" />
 		<Unit filename="../utl/app/cli.hpp" />
