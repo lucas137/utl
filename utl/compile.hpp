@@ -134,7 +134,7 @@ date_d()
 }
 
 /// Returns a 1- or 2-character string literal containing
-/// compilation day of the month (e.g., "`7`", "`29`").
+/// compilation day of the month (e.g., `"7"`, `"29"`).
 static constexpr char const*
 date_d_str()
 {
@@ -142,7 +142,7 @@ date_d_str()
 }
 
 /// Returns a 2-character string literal containing
-/// compilation day of the month (e.g., "`07`", "`29`").
+/// compilation day of the month (e.g., `"07"`, `"29"`).
 static constexpr char const*
 date_dd_str()
 {
@@ -169,7 +169,7 @@ date_m()
 }
 
 /// Returns a 1- or 2-character string literal containing
-/// compilation month (e.g., "`3`", "`10`").
+/// compilation month (e.g., `"3"`, `"10"`).
 static constexpr char const*
 date_m_str()
 {
@@ -186,7 +186,7 @@ date_m_str()
 }
 
 /// Returns 2-character string literal containing
-/// compilation month (e.g., "`03`", "`10`").
+/// compilation month (e.g., `"03"`, `"10"`).
 static constexpr char const*
 date_mm_str()
 {
@@ -203,7 +203,7 @@ date_mm_str()
 }
 
 /// Returns 3-character string literal containing
-/// compilation month (e.g., "`Mar`", "`Oct`").
+/// compilation month (e.g., `"Mar"`, `"Oct"`).
 static constexpr char const*
 date_mmm_str()
 {
@@ -214,7 +214,7 @@ date_mmm_str()
 // Year
 
 /// Returns a numeric value containing the
-/// 2-digit compilation year (e.g., `17').
+/// 2-digit compilation year (e.g., `17`).
 constexpr unsigned
 date_yy()
 {
@@ -223,7 +223,7 @@ date_yy()
 }
 
 /// Returns a number containing the
-/// 4-digit compilation year (e.g., `2017').
+/// 4-digit compilation year (e.g., `2017`).
 constexpr unsigned
 date_yyyy()
 {
@@ -234,7 +234,7 @@ date_yyyy()
 }
 
 /// Returns a string literal containing the 2-digit
-/// compilation year (e.g., "`00'", "`17'").
+/// compilation year (e.g., `"00"`, `"17"`).
 static constexpr char const*
 date_yy_str()
 {
@@ -242,7 +242,7 @@ date_yy_str()
 }
 
 /// Returns a string literal containing the 4-digit
-/// compilation year (e.g., "`2000'", "`2017'").
+/// compilation year (e.g., `"2000"`, `"2017"`).
 static constexpr char const*
 date_yyyy_str()
 {
@@ -253,7 +253,7 @@ date_yyyy_str()
 // Year, month, day
 
 /// Returns a number containing the 8-digit compilation
-/// date is ISO 8601 basic format (e.g., `20170917').
+/// date is ISO 8601 basic format (e.g., `20170917`).
 constexpr unsigned
 date_yyyymmdd()
 {
@@ -263,7 +263,7 @@ date_yyyymmdd()
 }
 
 /// Returns a string literal containing the compilation
-/// date (e.g., "`20160312'", "`2016-03-12'")
+/// date (e.g., `"20160312"`, `"2016-03-12"`)
 inline std::string
 date_yyyymmdd_str(std::string const& delim="")
 {
@@ -282,7 +282,7 @@ date_yyyymmdd_str(std::string const& delim="")
 // Hour
 
 /// Returns a numeric value containing the
-/// compilation time hour (e.g., `9', `12`).
+/// compilation time hour (e.g., `9`, `12`).
 constexpr unsigned
 time_hh()
 {
@@ -291,7 +291,7 @@ time_hh()
 }
 
 /// Returns a string literal containing the 2-digit
-/// compilation time hour (e.g., "`09`", "`12`").
+/// compilation time hour (e.g., `"09"`, `"12"`).
 static constexpr char const*
 time_hh_str()
 {
@@ -302,7 +302,7 @@ time_hh_str()
 // Minutes
 
 /// Returns a numeric value containing the
-/// compilation time minute (e.g., `5', `30`).
+/// compilation time minute (e.g., `5`, `30`).
 constexpr unsigned
 time_mm()
 {
@@ -311,7 +311,7 @@ time_mm()
 }
 
 /// Returns a string literal containing the 2-digit
-/// compilation time minutes (e.g., "`30`").
+/// compilation time minutes (e.g., `"30"`).
 static constexpr char const*
 time_mm_str()
 {
@@ -322,7 +322,7 @@ time_mm_str()
 // Seconds
 
 /// Returns a numeric value containing the
-/// compilation time seconds (e.g., `7', `15`).
+/// compilation time seconds (e.g., `7`, `15`).
 constexpr unsigned
 time_ss()
 {
@@ -331,7 +331,7 @@ time_ss()
 }
 
 /// Returns a string literal containing the 2-digit
-/// compilation time seconds (e.g., "`07`", "`15`").
+/// compilation time seconds (e.g., `"07"`, `"15"`).
 static constexpr char const*
 time_ss_str()
 {
@@ -355,7 +355,7 @@ time_hhmmss()
 }
 
 /// Returns a string containing the time
-/// of compilation (e.g., "`hhmmss`", "`hh:mm:ss`").
+/// of compilation (e.g., `"hhmmss"`, `"hh:mm:ss"`).
 inline std::string
 time_hhmmss_str(std::string const& delim="")
 {
