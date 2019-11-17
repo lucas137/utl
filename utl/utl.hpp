@@ -26,7 +26,7 @@ SOFTWARE.
 /// @brief    Utility C++ library.
 /// @details  Header-only utility library.
 /// @author   Nathan Lucas
-/// @version  0.2
+/// @version  0.1
 /// @date     2015
 //===========================================================================//
 #ifndef UTL_HPP
@@ -39,7 +39,7 @@ SOFTWARE.
 #error  Do not compile
 
 /// @namespace  utl
-/// @brief  C++ utility library.
+/// @brief  Utility C++ library.
 
 
 #endif // UTL_HPP
