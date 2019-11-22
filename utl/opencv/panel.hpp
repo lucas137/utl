@@ -39,9 +39,9 @@ SOFTWARE.
 
 // OpenCV is released under 3-clause BSD License.
 // https://opencv.org/license.html
-#include <opencv2/core.hpp>     // cv::FONT_*, cv::Mat, cv::Point,
+#include <opencv2/core.hpp>     // cv::Mat, cv::Point,
                                 // cv::Scalar, cv::Size
-#include <opencv2/imgproc.hpp>  // cv::rectangle
+#include <opencv2/imgproc.hpp>  // cv::FILLED, cv::FONT_*, cv::rectangle
 
 #pragma GCC diagnostic pop
 //-----------------------------------------------------------
@@ -193,9 +193,9 @@ inline void
 Panel::draw(cv::Mat& image) const
 {
   // Panel background
-  cv::rectangle(image, panel_box_, body_color_, CV_FILLED);
+  cv::rectangle(image, panel_box_, body_color_, cv::FILLED);
   // Title bar background and text
-  cv::rectangle(image, title_bar_, title_bar_color_, CV_FILLED);
+  cv::rectangle(image, title_bar_, title_bar_color_, cv::FILLED);
   title_text_.draw(image, title_str_, title_org_);
   // Borders
   cv::rectangle(image, title_bar_, {  32,  32,  32 }, 4);  // outer  / bottom
@@ -660,7 +660,7 @@ KeyPanel::draw(cv::Mat& image) const
   for (auto const& c : colors_)
   {
     org += cv::Point(0, swatch_spacing_px_);
-    cv::rectangle(image, org, org + swatch_size_, c,  CV_FILLED);
+    cv::rectangle(image, org, org + swatch_size_, c, cv::FILLED);
   }
 }
 
