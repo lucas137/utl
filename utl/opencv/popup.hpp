@@ -37,9 +37,9 @@ SOFTWARE.
 // OpenCV is released under 3-clause BSD License.
 // https://opencv.org/license.html
 
-#include <opencv2/core.hpp>     // cv::LINE_AA, cv::Mat, cv::Point, cv::Scalar
+#include <opencv2/core.hpp>     // cv::Mat, cv::Point, cv::Scalar
 #include <opencv2/highgui.hpp>  // cv::imshow, cv::namedWindow, cv::moveWindow
-#include <opencv2/imgproc.hpp>  // cv::putText
+#include <opencv2/imgproc.hpp>  // cv::LINE_AA, cv::putText
 
 #pragma GCC diagnostic pop
 //-----------------------------------------------------------

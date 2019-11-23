@@ -40,17 +40,17 @@ SOFTWARE.
 
 // OpenCV is released under 3-clause BSD License.
 // https://opencv.org/license.html
-#include <opencv2/core.hpp>       // cv::LINE_8, cv::Mat, cv::Point,
+#include <opencv2/core.hpp>       // cv::Mat, cv::Point,
                                   // cv::Point2f cv::RotatedRect,
                                   // cv::Scalar, cv::Size
-#include <opencv2/imgproc.hpp>    // cv::fillConvexPoly, CV_FILLED, cv::line
-
+#include <opencv2/imgproc.hpp>    // cv::LINE_8, cv::fillConvexPoly,
+                                  // cv::FILLED, cv::line
 #pragma GCC diagnostic pop
 //-----------------------------------------------------------
 
-#ifndef CV_FILLED
-#define CV_FILLED -1
-#endif
+//#ifndef CV_FILLED
+//#define CV_FILLED -1
+//#endif
 
 #include <cmath>      // std::fmod
 
@@ -95,7 +95,7 @@ void rotatedRect(cv::Mat& img, cv::Point const& pt, cv::Size const& sz,
   }
 
   // Filled rectangle
-  if (thickness == CV_FILLED)
+  if (thickness == cv::FILLED)
   {
     // Fill a rotated rectangle with specified color
     cv::fillConvexPoly(img, vertices, 4, color, lineType);

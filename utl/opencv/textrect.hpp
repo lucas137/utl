@@ -36,10 +36,10 @@ SOFTWARE.
 
 // OpenCV is released under 3-clause BSD License.
 // https://opencv.org/license.html
-#include <opencv2/core.hpp>       // cv::LINE_AA, cv::Mat, cv::Point, cv::Rect
+#include <opencv2/core.hpp>       // cv::Mat, cv::Point, cv::Rect
                                   // cv::Scalar, cv::Size, cv::String
-#include <opencv2/imgproc.hpp>    // cv::putText, cv::rectangle, CV_FILLED
-
+#include <opencv2/imgproc.hpp>    // cv::LINE_AA, cv::FILLED,
+                                  // cv::putText, cv::rectangle
 #pragma GCC diagnostic pop
 //-----------------------------------------------------------
 
@@ -104,7 +104,7 @@ TextRect::TextRect(cv::Rect   const& rect, cv::Scalar const& rect_color,
 void
 TextRect::draw(cv::Mat& image) const
 {
-  cv::rectangle(image, rect_, rect_color_, CV_FILLED);
+  cv::rectangle(image, rect_, rect_color_, cv::FILLED);
   cv::putText(image, text_, text_origin_, text_font_, text_scale_,
               text_color_, text_thick_, cv::LINE_AA);
 }
